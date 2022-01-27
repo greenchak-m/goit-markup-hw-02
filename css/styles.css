@@ -1,3 +1,22 @@
 body {
-  background-color: aliceblue;
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Шапка */
+.menu-nav .header-link {
+  color: #212121;
+}
+
+.nav .logo {
+  color: #2196f3;
+}
+
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
 }
