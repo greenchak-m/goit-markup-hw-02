@@ -1,22 +1,67 @@
 body {
   background-color: #ffffff;
-  color: black;
+  color: #212121;
+  font-family: "Roboto";
 }
 
 /* Шапка */
-.menu-nav .header-link {
+
+.header a {
+  text-decoration: none;
+}
+
+.logo-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
-.nav .logo {
-  color: #2196f3;
-}
-
-.menu-nav .link:hover,
-.menu-nav .link:focus {
+.logo-span {
   color: #2196f3;
 }
 
 .list {
   list-style: none;
+}
+
+.header-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-link {
+  color: #212121;
+}
+
+.header-link:hover {
+  color: #2196f3;
+}
+
+.header-link:focus {
+  color: #2196f3;
+}
+
+.info-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.info-link:hover {
+  color: #2196f3;
+}
+
+.info-link:focus {
+  color: #2196f3;
 }
