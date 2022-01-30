@@ -129,13 +129,13 @@ body {
 
 /* Особоенности работы */
 
-.work-sectiom {
-  /* position: absolute;
+/*.work-sectiom {
+  position: absolute;
   width: 1170px;
   height: 101px;
   left: 215px;
-  top: 774px; */
-}
+  top: 774px; 
+}*/
 
 .work-list-item h3 {
   font-style: normal;
@@ -158,14 +158,14 @@ body {
 
 /* чем мы занимаемся */
 
-.busy-section {
+/* .busy-section { 
   /* position: absolute;
   width: 1170px;
   height: 386px;
   left: 215px;
   top: 969px;
-  margin-top: 289px; */
-}
+  margin-top: 289px; 
+} */
 
 .busy-header {
   font-style: normal;
@@ -179,14 +179,14 @@ body {
 
 /* Команда */
 
-.team-section {
-  /* position: absolute;
+/* .team-section {
+  position: absolute;
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
-  margin-top: 769px; */
-}
+  margin-top: 769px; 
+} */
 
 .team-header {
   font-style: normal;
@@ -256,8 +256,6 @@ body {
   color: #212121;
 }
 
-
-
 .portfolio-btn-txt {
   font-style: normal;
   font-weight: 500;
@@ -265,7 +263,6 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  
 }
 
 .btn:hover {
@@ -283,8 +280,8 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff; */
-}
+  color: #ffffff; 
+}*/
 
 .galary-item-header {
   font-style: normal;
