@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
         <!--Шапка-->
-        <header>
-            <nav>
-                <a href="">WebStudio</a>
-                <ul>
-                    <li><a href="./index.html">Студия</a></li>
-                    <li><a href="./portfolio.html">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
+        <header class="header">
+            <nav class="nav">
+                <a href="" class="logo-link"> <span class="logo-span">Web</span>Studio</a>
+                <ul class="menu-nav list">
+                    <li class="header-item"><a href="./index.html" class="header-link">Студия</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="header-link">Портфолио</a></li>
+                    <li class="header-item"><a href="" class="header-link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li><a href="">info@devstudio.com</a></li>
-                <li><a href="">+38 096 111 11 11</a></li>
+            <ul class="info-nav list">
+                <li class="info-item"><a href="" class="info-link">info@devstudio.com</a></li>
+                <li class="info-item"><a href="" class="info-link">+38 096 111 11 11</a></li>
             </ul>
         </header>
         <main>
-            <ul class="btn-list">
-                <li class="btn-list-item"><button type="button" class="btn">Все</button></li>
-                <li class="btn-list-item"><button type="button" class="btn">Веб-сайты</button></li>
-                <li class="btn-list-item"><button type="button" class="btn">Приложения</button></li>
-                <li class="btn-list-item"><button type="button" class="btn">Дизайн</button></li>
-                <li class="btn-list-item"><button type="button" class="btn">Маркетинг</button></li>
+            <ul class="btn-list list">
+                <li class="btn-list-item"><button type="button" class="btn"> <span class="portfolio-btn-txt">Все</span></button></li>
+                <li class="btn-list-item"><button type="button" class="btn"> <span class="portfolio-btn-txt">Веб-сайты</span></button></li>
+                <li class="btn-list-item"><button type="button" class="btn"> <span class="portfolio-btn-txt">Приложения</span></button></li>
+                <li class="btn-list-item"><button type="button" class="btn"> <span class="portfolio-btn-txt">Дизайн</span></button></li>
+                <li class="btn-list-item"><button type="button" class="btn"> <span class="portfolio-btn-txt">Маркетинг</span> </button></li>
             </ul>
 
-            <ul class="galary">
+            <ul class="galary list">
                 <li class="galary-item">
                     <img src="./imgs/pt-img-1.jpg" alt="Анкеты на ноутбуке" width="320">
                     <h2 class="galary-item-header">Технокряк</h2>
@@ -80,12 +86,12 @@
             </ul>
         </main>
         <!--Футер-->
-        <footer>
-            <a href="">WebStudio</a>
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-            <ul>
-                <li><a href="">info@devstudio.com</a></li>
-                <li><a href="">+38 096 111 11 11</a></li>
+        <footer class="footer">
+            <a href="" class="logo-link"> <span class="logo-span">Web</span>Studio</a>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="info-list list">
+                <li class="info-list-item"><a href="" class="footer-link">info@devstudio.com</a></li>
+                <li class="info-list-item"><a href="" class="footer-link">+38 096 111 11 11</a></li>
             </ul>
         </footer>
     
