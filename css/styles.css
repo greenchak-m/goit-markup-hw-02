@@ -12,6 +12,10 @@ body{
     list-style: none;
 }
 
+:root{
+
+}
+
 /*===========================HEADER=============================*/
 
 .header {
@@ -91,11 +95,11 @@ body{
         line-height: 1.5;
     letter-spacing: 0.04em;
         color: #FFFFFF;
-        width: 169px;
-        height: 56px;
+        /* width: 169px; */
+        /* height: 56px; */
         background-color: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+         /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+         /* border-radius: 4px; */
 }
 
 .hero-btn:hover {
@@ -225,10 +229,10 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4D5AE5;
-        height: 48px;
+        /* height: 48px; */
         background-color: #F4F4FD;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
+        /* border: 1px solid #E7E9FC; */
+        /* border-radius: 4px; */
 }
 
 .prt-list {}
