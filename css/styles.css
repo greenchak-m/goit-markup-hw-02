@@ -1,5 +1,7 @@
 body{
-  font-family: 'Roboto' ;
+  font-family: 'Roboto', sans-serif ;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 .link {
@@ -24,6 +26,7 @@ body{
         line-height: 1.16;
         letter-spacing: 0.03em;
         color: #2E2F42;
+        text-transform: uppercase;
 }
 
 .logo-span {
@@ -48,6 +51,10 @@ body{
 .info-list-link:active {
     color: #404BBF;
 
+}
+
+.info{
+    font-style: inherit;
 }
 
 .info-list {}
