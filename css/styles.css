@@ -242,7 +242,7 @@ background-color: #404BBF;
 .btn-list-item {}
 
 .prt-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -250,6 +250,13 @@ background-color: #404BBF;
         letter-spacing: 0.04em;
         color: #4D5AE5;
         background-color: #F4F4FD;
+}
+
+.prt-btn:hover,
+.prt-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 .prt-list {}
